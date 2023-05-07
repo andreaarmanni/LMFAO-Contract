@@ -5,10 +5,10 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Turbo is ERC20, ERC20Burnable, Ownable {
+contract Lmfao is ERC20, ERC20Burnable, Ownable {
     uint256 private constant INITIAL_SUPPLY = 69000000000 * 10**18;
 
-    constructor() ERC20("Turbo", "$TURBO") {
+    constructor() ERC20("Lmfao", "$LMFAO") {
         _mint(msg.sender, INITIAL_SUPPLY);
     }
 
